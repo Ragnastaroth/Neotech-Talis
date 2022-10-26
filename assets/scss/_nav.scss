@@ -1,0 +1,64 @@
+nav {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(44, 44, 108);
+    padding: 0.5rem 5%;
+}
+
+nav>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    color: white;
+    font-family: "roboto";
+    font-weight: bold;
+    font-size: small;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    color: white;
+}
+
+.form_end {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+nav h1 {
+    font-family: "roboto_bold";
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+}
+
+nav a {
+    color: white;
+}
+
+nav i {
+    color: white;
+}
+
+nav input {
+    width: auto;
+    background-color: rgb(44, 44, 108);
+    border: none;
+    color: white;
+}
+
+

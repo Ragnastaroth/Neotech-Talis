@@ -1,0 +1,39 @@
+.top_logo {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.left_part {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.left_part article {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+        h3 {
+            width: 450px;
+            font-size: large;
+            font-family: "roboto_bold";
+            font-weight: 900;
+        }
+
+        p {
+            width: 450px;
+
+        }
+}
+
+.left_part article p:first-child {
+    font-family: "roboto_bold";
+    font-size: small;
+    color: red;
+}
+
+.left_part article p:nth-child(3) {
+    font-size: smaller;
+    color: grey;
+}

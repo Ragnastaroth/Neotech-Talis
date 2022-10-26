@@ -1,0 +1,22 @@
+#carousel_size {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+
+#carousel_size p {
+    font-family: "roboto_bold";
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+#carousel_size a {
+    font-family: "roboto_bold";
+    font-size: small;
+    background-color: red;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    color: white;
+    text-transform: uppercase;
+}
+
